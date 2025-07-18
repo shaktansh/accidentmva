@@ -18,9 +18,9 @@ export default function Header() {
               <Phone className="h-4 w-4 mr-2" />
               <span className="font-medium">Free Case Evaluation: 1-800-LAW-Acci</span>
             </a>
-            <a href="mailto:info@legalcare.com" className="flex items-center text-white hover:text-yellow-400 transition-colors">
+            <a href="mailto:info@accident.ink" className="flex items-center text-white hover:text-yellow-400 transition-colors">
               <Mail className="h-4 w-4 mr-2" />
-              <span>info@legalcare.com</span>
+              <span>info@accident.ink</span>
             </a>
           </div>
           

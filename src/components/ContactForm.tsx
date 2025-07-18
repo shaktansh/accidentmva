@@ -39,7 +39,7 @@ export default function ContactForm() {
         <div className="max-w-4xl mx-auto">
           {/* Attention-grabbing header */}
           <div className="text-center mb-12">
-            <div className="inline-block bg-gradient-to-r from-yellow-400 to-orange-400 text-black px-6 py-2 rounded-full font-bold text-sm mb-4 animate-pulse">
+            <div className="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white px-6 py-2 rounded-full font-bold text-sm mb-4 animate-pulse">
               🚨 FREE CONSULTATION - LIMITED TIME
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -177,8 +177,7 @@ export default function ContactForm() {
                 type="submit"
                 className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:from-green-700 hover:to-green-800 transition-all transform hover:scale-105 shadow-lg flex items-center justify-center animate-pulse"
               >
-                <Send className="h-5 w-5 mr-2" />
-                🚀 Get My Free Consultation NOW
+                Get My Free Consultation NOW
               </button>
               
               <div className="text-center">
