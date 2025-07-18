@@ -37,10 +37,10 @@ export default function Hero() {
               </button>
               
               <a
-                href="tel:+1-800-LAW-AFFF"
+                href="tel:+1-800-LAW-Acci"
                 className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg border-2 border-blue-600 hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg flex items-center justify-center"
               >
-                Call 1-800-LAW-AFFF
+                Call 1-800-LAW-Acci
               </a>
             </div>
             

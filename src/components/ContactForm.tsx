@@ -209,7 +209,7 @@ export default function ContactForm() {
               <div className="space-y-3 text-blue-200 text-sm">
                 <div className="flex items-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  <span className="font-semibold">1-800-LAW-AFFF</span>
+                  <span className="font-semibold">1-800-LAW-Acci</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />

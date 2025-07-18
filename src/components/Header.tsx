@@ -14,9 +14,9 @@ export default function Header() {
           </div>
           
           <div className="hidden md:flex items-center space-x-6">
-            <a href="tel:+1-800-LAW-AFFF" className="flex items-center text-white hover:text-yellow-400 transition-colors">
+            <a href="tel:+1-800-LAW-Acci" className="flex items-center text-white hover:text-yellow-400 transition-colors">
               <Phone className="h-4 w-4 mr-2" />
-              <span className="font-medium">Free Case Evaluation: 1-800-LAW-AFFF</span>
+              <span className="font-medium">Free Case Evaluation: 1-800-LAW-Acci</span>
             </a>
             <a href="mailto:info@legalcare.com" className="flex items-center text-white hover:text-yellow-400 transition-colors">
               <Mail className="h-4 w-4 mr-2" />
@@ -25,7 +25,7 @@ export default function Header() {
           </div>
           
           <div className="md:hidden">
-            <a href="tel:+1-800-LAW-AFFF" className="text-yellow-400 font-medium">
+            <a href="tel:+1-800-LAW-Acci" className="text-yellow-400 font-medium">
               Call Now
             </a>
           </div>

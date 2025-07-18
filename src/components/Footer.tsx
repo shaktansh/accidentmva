@@ -27,7 +27,7 @@ export default function Footer() {
               Connecting accident victims with experienced personal injury attorneys across the United States.
             </p>
             <div className="text-yellow-400 font-bold text-lg">
-              1-800-LAW-AFFF
+              1-800-LAW-Acci
             </div>
           </div>
           
@@ -46,7 +46,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Get Help Today</h4>
             <ul className="space-y-2 text-sm">
-              <li><span className="text-yellow-400 font-semibold">1-800-LAW-AFFF</span></li>
+              <li><span className="text-yellow-400 font-semibold">1-800-LAW-Acci</span></li>
               <li><span className="text-gray-400">Free Consultation Available</span></li>
             </ul>
           </div>
