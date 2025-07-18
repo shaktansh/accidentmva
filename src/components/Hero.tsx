@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text */}
-          <div className="space-y-8 relative z-10">
+          <div className="space-y-8 relative z-10" data-aos="fade-right" data-aos-duration="1000">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Get Maximum Compensation After Your Car Accident
@@ -62,12 +62,13 @@ export default function Hero() {
           </div>
           
           {/* Right Column - Image */}
-          <div className="relative z-10">
+          <div className="relative z-10" data-aos="fade-left" data-aos-duration="1000">
             <div className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
               <img
                 src="/accidentcar.jpg"
                 alt="Accident car scene"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             

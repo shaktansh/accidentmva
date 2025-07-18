@@ -69,7 +69,13 @@ export default function Testimonials() {
         
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-md border border-blue-100 hover:shadow-lg transition-all transform hover:scale-105">
+            <div
+              key={index}
+              className="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-md border border-blue-100 hover:shadow-lg transition-all transform hover:scale-105"
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+              data-aos-duration="800"
+            >
               <div className="flex items-center mb-4">
                 <Quote className="h-6 w-6 text-purple-600 mr-2" />
                 <div className="flex">
