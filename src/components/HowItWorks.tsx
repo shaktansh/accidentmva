@@ -29,7 +29,7 @@ export default function HowItWorks() {
         <div className="text-center mb-16">
           <button
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-            className="inline-block bg-gradient-to-r from-red-500 to-orange-500 text-white px-6 py-2 rounded-full font-bold text-sm mb-4 animate-pulse hover:from-red-600 hover:to-orange-600 transition-all transform hover:scale-105 cursor-pointer"
+            className="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white px-6 py-2 rounded-full font-bold text-sm mb-4 animate-pulse hover:from-green-600 hover:to-green-800 transition-all transform hover:scale-105 cursor-pointer"
           >
             🚨 FREE CONSULTATION - LIMITED TIME OFFER
           </button>

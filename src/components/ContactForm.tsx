@@ -12,11 +12,22 @@ export default function ContactForm() {
     injuries: ''
   });
 
+  const [submitted, setSubmitted] = useState(false);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your submission! We will contact you within 24 hours.');
+    setSubmitted(true);
+    // Optionally reset form fields:
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      address: '',
+      pincode: '',
+      accidentDate: '',
+      injuries: ''
+    });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -37,6 +48,14 @@ export default function ContactForm() {
         
         {/* Contact Form - Full Width */}
         <div className="max-w-4xl mx-auto">
+          {submitted && (
+            <div className="mb-8 text-center">
+              <div className="inline-block bg-gradient-to-r from-green-600 to-green-700 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-lg animate-in fade-in">
+                <span role="img" aria-label="check" className="mr-2">✅</span>
+                Your form has been submitted! We will contact you soon.
+              </div>
+            </div>
+          )}
           {/* Attention-grabbing header */}
           <div className="text-center mb-12">
             <div className="inline-block bg-gradient-to-r from-green-500 to-green-700 text-white px-6 py-2 rounded-full font-bold text-sm mb-4 animate-pulse">
@@ -175,7 +194,7 @@ export default function ContactForm() {
               
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:from-green-700 hover:to-green-800 transition-all transform hover:scale-105 shadow-lg flex items-center justify-center animate-pulse"
+                className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:from-green-700 hover:to-green-800 transition-all transform hover:scale-105 shadow-lg flex items-center justify-center"
               >
                 Get My Free Consultation NOW
               </button>
